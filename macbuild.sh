@@ -39,7 +39,7 @@ then
     echo -e "${BLUE}Installing Ansible${ENDC}"
     # TODO: switch back to pip when Ansible 2.2.1.0 is released
     # pip3 install ansible
-    pip3 install git+git://github.com/ansible/ansible.git@stable-2.2
+    pip3 install ansible
 fi
 
 # Setup the source of music production software from the backup drive attached
