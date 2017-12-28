@@ -1,7 +1,6 @@
 ---
 software_brew_packages:
   # Unix Utilities
-  - android-platform-tools
   - bash
   - cdiff
   - ctags
