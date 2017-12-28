@@ -1,9 +1,0 @@
-- name: place Kontakt libraries in the requested order
-  plist:
-    dest: "com.native-instruments.{{ item.1 }}"
-    values: "{{ item.0 | kontakt_index }}"
-  with_indexed_items: "{{ kontakt_library_order }}"
-
-- name: refresh cfprefsd
-  command: killall cfprefsd
-  changed_when: false

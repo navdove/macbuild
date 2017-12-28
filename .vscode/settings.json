@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "/usr/local/bin/python3.6",
+    "files.autoSave": "onFocusChange",
+    "window.openFoldersInNewWindow": "on",
+    "terminal.integrated.env.osx": {
+        
+    }
+}

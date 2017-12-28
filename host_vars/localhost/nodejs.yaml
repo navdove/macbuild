@@ -1,7 +1,7 @@
 ---
 node_js_packages:
-  - bower
-  - coffee-script
+  - http-server
+  - json-server
   - csslint
   - less
   - jshint

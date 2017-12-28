@@ -82,7 +82,7 @@ macos_os_defaults:
       # Set the icon size of dock items
       tilesize: 60
       # Enable magnificationn of icons
-      magnification: true
+      magnification: false
       # Make hidden applications translucent in the dock
       showhidden: true
 

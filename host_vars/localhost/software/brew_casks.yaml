@@ -7,38 +7,19 @@ software_brew_casks:
   - font-source-code-pro-for-powerline
 
   # Freeware
-  - android-file-transfer
-  - appcleaner
   - bestres
   - bootchamp
   - cog
-  - dropbox
-  - firefox
-  - flux
-  - gmail-notifier
   - google-chrome
-  - macdown
-  - mplayerx
-  - openemu-experimental
   - skype
   - slack
   - sourcetree
   - transmission
-  - vagrant
   - virtualbox
   - xld
 
   # Commercial
-  - 1password
-  - audio-hijack
-  - daisydisk
-  - dash
-  - entropy
-  - focus
-  - forklift-beta
-  - microsoft-office
-  - textual
-  - vmware-fusion
+  
 
   # Music Production Software
 
