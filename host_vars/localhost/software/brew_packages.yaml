@@ -30,11 +30,6 @@ software_brew_packages:
 
   # Programming Languages
   - go
-  - rbenv
-  - ruby-build
 
   # Completions
   - bash-completion
-  - vagrant-completion
-  - ruby-completion
-  - rake-completion
