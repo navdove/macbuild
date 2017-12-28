@@ -47,25 +47,6 @@
 - name: create the screenshots folder
   file: path=~/Pictures/Screenshots state=directory
 
-- name: grant permission to audio plugin paths
-  file: path={{ item }} state=directory owner=root group=admin mode=0775
-  with_items:
-    # Documentation
-    - /Library/Documentation
-    # Presets
-    - /Library/Audio/Presets
-    # AAX
-    - /Library/Application Support/Avid/Audio/Plug-Ins
-    # RTAS
-    - /Library/Application Support/Digidesign/Plug-Ins
-    # AU
-    - /Library/Audio/Plug-Ins/Components
-    # VST
-    - /Library/Audio/Plug-Ins/VST
-    # VST3
-    - /Library/Audio/Plug-Ins/VST3
-  become: yes
-
 - name: set operating system defaults
   plist:
     dest: "{{ item.domain }}"
