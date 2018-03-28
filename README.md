@@ -50,7 +50,7 @@ time and ensure everything works as expected:
 Now, run the following in your Terminal to use my configuration:
 
 ```bash
-git clone https://github.com/fgimian/macbuild.git
+git clone https://github.com/navdove/macbuild.git
 cd macbuild
 ./macbuild.sh
 ```
